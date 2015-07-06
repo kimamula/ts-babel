@@ -1,0 +1,41 @@
+{
+    "version": "1.5.0-beta",
+    "compilerOptions": {
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noEmitOnError": true,
+        "outDir": "tsc-babel-intermediate"
+    },
+    "filesGlob": [
+        "./ts/**/*.ts"
+    ],
+    "files": [
+        "./ts/arrows.ts",
+        "./ts/binary_and_octal_literals.ts",
+        "./ts/classes.ts",
+        "./ts/default_rest_spread.ts",
+        "./ts/destructuring.ts",
+        "./ts/generators.ts",
+        "./ts/iterators_for_of.ts",
+        "./ts/let_const.ts",
+        "./ts/lib/math.ts",
+        "./ts/map_set_weakmap_weakset.ts",
+        "./ts/math_number_string_object_apis.ts",
+        "./ts/module_export.ts",
+        "./ts/module_import.ts",
+        "./ts/module_loaders.ts",
+        "./ts/object_literals.ts",
+        "./ts/promises.ts",
+        "./ts/proxies.ts",
+        "./ts/reflect_api.ts",
+        "./ts/subclassable_built_ins.ts",
+        "./ts/symbols.ts",
+        "./ts/tail_calls.ts",
+        "./ts/template_strings.ts",
+        "./ts/unicode.ts"
+    ]
+}
