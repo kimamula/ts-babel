@@ -16,6 +16,6 @@
   "license": "ISC",
   "devDependencies": {
     "babel": "^5.6.14",
-    "typescript": "^1.5.0-beta"
+    "typescript": "git@github.com:Microsoft/TypeScript.git#2c5ba08266d06bab8a9ad64d00cbc37f1fb47c29"
   }
 }

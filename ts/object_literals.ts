@@ -4,7 +4,7 @@ var handler = (resultCode: number) => {return resultCode * 10};
 
 var obj = {
     // __proto__
-    __proto__: MyClass.prototype,
+    __proto__: new MyClass(10, 'Luke'),
     // Shorthand for ‘handler: handler’
     handler,
     // Methods

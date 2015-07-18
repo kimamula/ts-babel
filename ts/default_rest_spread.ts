@@ -15,3 +15,4 @@ function fSpread(x: number, y: number, z: number) {
 }
 // Pass each elem of array as argument
 fSpread(...[1, 2, 3]) === 6;
+(<any>fSpread)(...[1, 2, 3]) === 6; // This can be compiled
