@@ -7,7 +7,6 @@
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
-        "noEmitOnError": true,
         "outDir": "tsc-babel-intermediate"
     },
     "filesGlob": [
